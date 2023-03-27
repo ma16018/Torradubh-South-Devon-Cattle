@@ -781,6 +781,13 @@ section {
   font-size: 19px;
 }
 
+.story-intro .content h4 {
+  font-weight: 600;
+  color: #044d81;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
 .story-intro .content h1 {
   font-weight: 600;
   color: #044d81;
@@ -1223,7 +1230,6 @@ section {
 .contact-us .info .email,
 .contact-us .info .phone {
   margin-top: 40px;
-  /* margin-left: 40px; */
 }
 
 .contact-us .info .email:hover i,
