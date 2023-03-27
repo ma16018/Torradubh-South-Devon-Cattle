@@ -777,17 +777,37 @@ section {
 /*--------------------------------------------------------------
 # Story Intro
 --------------------------------------------------------------*/
-.story-intro .content h3 {
-  font-weight: 600;
-  font-size: 26px;
+.story-intro .content p {
+  font-size: 20px;
 }
 
+.story-intro .content h1 {
+  font-weight: 600;
+  color: #044d81;
+  font-size: 40px;
+}
+
+
+.story-intro .content h2 {
+  font-weight: 500;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.story-intro .content h3 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+
 .story-intro .content ul {
-  list-style: none;
-  padding: 0;
+  list-style: circle;
+  padding-left: 30px;
+  padding-bottom: 20px;
 }
 
 .story-intro .content ul li {
+  padding-left: 20px;
   padding-bottom: 10px;
 }
 
@@ -983,6 +1003,28 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+.gallery .content h3 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #013f6c;
+}
+
+.gallery .content ul {
+  list-style: none;
+}
+
+.gallery .content ul li {
+  padding-bottom: 10px;
+  font-size: 15px;
+  padding-left: 0px;
+}
+
+.gallery .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #006fbe;
+}
+
 .gallery .gallery-item {
   margin-bottom: 30px;
 }
@@ -1138,6 +1180,10 @@ section {
 /*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
+.contact-us .map {
+  margin-bottom: 40px;
+}
+
 .contact-us .info {
   width: 100%;
   background: #fff;
