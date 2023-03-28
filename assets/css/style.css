@@ -542,6 +542,11 @@ section {
   font-size: 26px;
 }
 
+.about .content p {
+  font-weight: 400;
+  font-size: 22px;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
